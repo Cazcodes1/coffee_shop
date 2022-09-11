@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 15px 0px 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  max-width: 80%;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #4b7078;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 85px;
+}
+
+content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h2 {
+  color: #4b7078;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+.content .textBox h2 span {
+  color: #65a5b6;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #4b7078;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.content .img {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  margin-top: 50px;
+}
+
+.content .imgBox img {
+  max-width: 450px;
+}
+.thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.thumb li:hover {
+  transform: translateY(-15px);
+}
+
+.sci {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.fa-brands {
+  color: #4b7078;
+}
+.fa-brands:hover {
+  transform: translateY(-5px);
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fce4e1;
+  clip-path: circle(700px at right 600px);
+}
+
+.footer {
+  color: #65a5b6;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  opacity: 80%;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 3px 22px 10px 16px;
+    margin-top: -10px;
+  }
+  .logo img {
+    margin-top: 10px;
+    height: 140px;
+    width: 140px;
+    margin-left: -22px;
+  }
+  header ul {
+    display: none;
+  }
+  .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(the_little_cup_coffee/images/menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    z-index: 11;
+  }
+  .toggle.active {
+    position: fixed;
+    right: 20px;
+    background: url(the_little_cup_coffee/images/close.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  header ul.navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    z-index: 10;
+  }
+  header ul li a {
+    color: #4b7078;
+    font-size: 1.5em;
+
+    margin: 5px 0;
+  }
+  section {
+    padding: 20px 20px 120px;
+  }
+  .content {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .content .textBox h2 {
+    font-size: 2.5em;
+    margin-bottom: -15px;
+  }
+  .content .textBox {
+    margin-top: 15px;
+    max-width: 100%;
+    font-size: 13px;
+    margin-bottom: 85px;
+  }
+
+  .content .imgBox {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .content .imgBox img {
+    max-height: 250px;
+    max-width: 250px;
+  }
+  .thumb li img {
+    max-height: 80px;
+    max-width: 80px;
+  }
+  .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #dbb4b1;
+    clip-path: circle(300px at center bottom);
+  }
+  .fa-brands {
+    font-size: 19px;
+  }
+  .footer {
+    color: #80babb;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    opacity: 80%;
+  }
+}
