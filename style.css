@@ -182,7 +182,7 @@ content .textBox {
     width: 30px;
     height: 30px;
     cursor: pointer;
-    background: url(the_little_cup_coffee/images/menu.png);
+    background: url(images/menu.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ content .textBox {
   .toggle.active {
     position: fixed;
     right: 20px;
-    background: url(the_little_cup_coffee/images/close.png);
+    background: url(images/close.png);
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
