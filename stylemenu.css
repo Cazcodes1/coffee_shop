@@ -11,7 +11,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0px 15px 0px 62px;
+  padding: 0px 50px 0px 73px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,24 +39,50 @@ header ul li a {
   text-decoration: none;
 }
 
-h3 {
-  margin-bottom: 2px;
+.popular {
+  color: #4b7078;
+  font-size: 60px;
+  line-height: 1.4em;
+  font-weight: 500;
 }
+
+.choice {
+  font-size: 1em;
+  color: #65a4b6;
+  line-height: 1.4em;
+  font-weight: 600;
+}
+.description {
+  color: rgb(190, 103, 116);
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: -40px;
+
+  color: #e8a49b;
+}
+
 h4 {
   font-size: 12px;
+  color: #e8a49b;
 }
 .menu {
-  margin-top: 200px;
+  margin-top: 220px;
   text-align: center;
   font-size: 40px;
-  color: #db9c9d;
+  color: #4b7078;
   padding: 20px;
 }
 
-.menu .box-container {
+.all-drinks-container {
+  margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 14rem);
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 12rem);
+  gap: 3rem;
   align-items: flex-start;
   justify-content: center;
   font-size: 8px;
@@ -75,4 +101,69 @@ h4 {
 
 .box {
   cursor: pointer;
+}
+
+.box {
+  position: relative;
+}
+
+.drink-image {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgb(190, 103, 116);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: opacity(5px);
+}
+
+.image__overlay--primary {
+  background: #fff0e2;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 0.75;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.footer {
+  color: #80babb;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  opacity: 80%;
 }
