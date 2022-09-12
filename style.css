@@ -211,7 +211,7 @@ content .textBox {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #fff;
+    background: #fff1e2;
     z-index: 10;
   }
   header ul li a {

@@ -167,6 +167,7 @@ h4 {
   font-size: 15px;
   opacity: 80%;
 }
+
 @media (max-width: 991px) {
   header {
     padding: 3px 22px 10px 16px;
@@ -211,13 +212,12 @@ h4 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #fff;
+    background: #fff1e2;
     z-index: 10;
   }
   header ul li a {
     color: #4b7078;
     font-size: 1.5em;
-
     margin: 5px 0;
   }
 }
