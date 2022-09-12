@@ -253,6 +253,26 @@
   
 </section>
    
+ <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector(".blue-coffee").src = anything;
+      }
+
+      function changeCircleColor(color) {
+        const circle = document.querySelector(".circle");
+        circle.style.background = color;
+      }
+      function toggleMenu() {
+        var menuToggle = document.querySelector(".toggle");
+        var navigation = document.querySelector(".navigation");
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
+
+
+
+
     <script src="main.js"></script>
   </body>
 </html>
