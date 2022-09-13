@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 100px;
+
+  background: #fff1e2;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 50px 0px 73px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  max-width: 80%;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #4b7078;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+section .shop {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.fa-brands {
+  color: #4b7078;
+}
+.fa-brands:hover {
+  transform: translateY(-5px);
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 50px;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fce4e1;
+  clip-path: circle(700px at right 600px);
+}
+
+.coded-by {
+  text-align: center;
+  padding-top: 20px;
+  color: #dbb4b1;
+  background-color: #fff0e2;
+}
+
+@media (max-width: 991px) {
+  header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0px 40px 0px 42px;
+  }
+  .logo img {
+    margin-top: 10px;
+    height: 140px;
+    width: 140px;
+    margin-left: -22px;
+  }
+  header ul {
+    display: none;
+  }
+  .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(images/menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    z-index: 11;
+  }
+  .toggle.active {
+    position: fixed;
+    right: 20px;
+    background: url(images/close.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  header ul.navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff1e2;
+    z-index: 10;
+  }
+  header ul li a {
+    color: #4b7078;
+    font-size: 1.5em;
+
+    margin: 5px 0;
+  }
+
+  section {
+    padding: 19px 15px 9px;
+  }
+  section.shop {
+    margin-bottom: 75px;
+  }
+
+  .fa-brands {
+    font-size: 30px;
+  }
+  .coded-by {
+    font-size: 13px;
+  }
+  a.shop-one {
+    height: 307px;
+  }
+  img.shop-two {
+    margin-top: -27px;
+    margin-bottom: -200px;
+  }
+  .coded-by {
+    margin-top: -125px;
+    font-size: 16px;
+  }
+}
