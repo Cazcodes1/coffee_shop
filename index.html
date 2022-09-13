@@ -24,8 +24,8 @@
         <a href="#" class="logo">
           <img
             src="images/The Little Cup.png"
-            height="200x"
-            width="200px"
+            height="250x"
+            width="250px"
             alt="logo"
         /></a>
         <div class="toggle" onclick="toggleMenu();"></div>
@@ -35,7 +35,7 @@
           </li>
           <li><a href="menu.html">Drinks</a></li>
 
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Find Us</a></li>
         </ul>
       </header>
       <div class="content">
@@ -53,7 +53,7 @@
             foods, catering to all apetites. <br /><br />
             The Little Cup, home of the big welcome!
           </p>
-          <a href="about.html">About Us</a>
+          <a href="about.html">Meet the team</a>
         </div>
         <div class="imgBox">
           <img
@@ -71,8 +71,8 @@
             src="images/strwaberry.png"
             onclick="imgSlider('images/strwaberry.png'); changeCircleColor('#B0DBE1')"
             alt="peach coffee"
-            height="200px"
-            width="200px"
+            height="150px"
+            width="150px"
           />
         </li>
         <li>
@@ -80,8 +80,8 @@
             src="images/blue.png"
             onclick="imgSlider('images/blue.png');changeCircleColor('#dbb4b1')"
             alt="peach coffee"
-            height="200px"
-            width="200px"
+            height="150px"
+            width="150px"
           />
         </li>
         <li>
@@ -89,8 +89,8 @@
             src="images/peach.png"
             onclick="imgSlider('images/peach.png'); changeCircleColor('#e0b1be')"
             alt="peach coffee"
-            height="200px"
-            width="200px"
+            height="150px"
+            width="150px"
           />
         </li>
       </ul>
@@ -106,24 +106,7 @@
         </li>
       </ul>
     </section>
-
-    <script type="text/javascript">
-      function imgSlider(anything) {
-        document.querySelector(".blue-coffee").src = anything;
-      }
-
-      function changeCircleColor(color) {
-        const circle = document.querySelector(".circle");
-        circle.style.background = color;
-      }
-      function toggleMenu() {
-        var menuToggle = document.querySelector(".toggle");
-        var navigation = document.querySelector(".navigation");
-        menuToggle.classList.toggle("active");
-        navigation.classList.toggle("active");
-      }
-    </script>
-
+    <footer class="coded-by">Coded by Caroline Weir (aka CazCodes) 2022</footer>
     <script src="main.js"></script>
   </body>
 </html>
