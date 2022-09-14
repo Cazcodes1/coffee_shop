@@ -245,14 +245,18 @@ h4 {
     grid-template-columns: repeat(auto-fit, 11rem);
     gap: 0.5rem;
   }
+  .menu {
+    padding: 7px;
+    padding-bottom: 1px;
+  }
   p.image__description {
     font-size: 1.5em;
   }
-
   .coded-by {
     text-align: center;
     font-size: 13px;
     color: #dbb4b1;
     background-color: #fff0e2;
+    margin-top: -35px;
   }
 }
