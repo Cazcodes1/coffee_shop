@@ -38,7 +38,13 @@ header ul li a {
   margin-left: 40px;
   text-decoration: none;
 }
-
+.menu {
+  margin-top: 270px;
+  text-align: center;
+  font-size: 40px;
+  color: #4b7078;
+  padding: 20px;
+}
 .popular {
   color: #4b7078;
   font-size: 60px;
@@ -69,13 +75,6 @@ h3 {
 h4 {
   font-size: 12px;
   color: #e8a49b;
-}
-.menu {
-  margin-top: 270px;
-  text-align: center;
-  font-size: 40px;
-  color: #4b7078;
-  padding: 20px;
 }
 
 .all-drinks-container {

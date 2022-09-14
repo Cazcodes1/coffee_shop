@@ -43,15 +43,121 @@ header ul li a {
   margin-left: 40px;
   text-decoration: none;
 }
+.menu {
+  margin-top: 95px;
+  text-align: center;
+  padding: 20px;
+}
 
-section .shop {
+.menu h3 {
+  color: #4b7078;
+  font-size: 60px;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.menu h4 {
+  font-size: 40px;
+  color: #5ea9bd;
+  line-height: 1.4em;
+  font-weight: 600;
+}
+.description {
+  color: rgb(190, 103, 116);
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+.shop-container {
+  margin-top: 60px;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 200px;
-  justify-content: center;
+
+  align-content: flex-start;
+  flex-direction: column;
   align-items: center;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+}
+
+.menu .box-container .box {
+  text-align: center;
+}
+.menu .box-container .box img {
+  width: 100%;
+
+  margin-bottom: 1rem;
+}
+.menu .box-container .box h3 {
+  font-size: 15px;
+  color: #4b7078;
+}
+
+.box {
+  cursor: pointer;
+}
+
+.box {
+  position: relative;
+}
+
+.drink-image {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgb(190, 103, 116);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: opacity(5px);
+}
+
+.image__overlay--primary {
+  background: #fff0e2;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 0.75;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 20px;
+  margin-top: 0.25em;
+  text-align: center;
+  list-style: none;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
 }
 .fa-brands {
   color: #4b7078;
@@ -60,14 +166,24 @@ section .shop {
   transform: translateY(-5px);
 }
 
-.sci li {
-  list-style: none;
+.sci {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+li {
+  padding: 5px;
 }
 
 .sci li a {
   display: inline-block;
   margin: 10px 0;
   font-size: 50px;
+  padding: 10px;
+}
+
+.sci li a {
+  transform: translateY(-5px);
 }
 
 .circle {

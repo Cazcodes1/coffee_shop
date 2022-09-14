@@ -66,6 +66,7 @@ header ul li a {
   justify-content: space-between;
   align-items: center;
   margin-top: 118px;
+  margin-bottom: 60px;
 }
 
 content .textBox {
@@ -115,7 +116,7 @@ content .textBox {
 .thumb {
   position: absolute;
   left: 50%;
-  bottom: -18px;
+  bottom: 0px;
   transform: translateX(-50%);
   display: flex;
 }
