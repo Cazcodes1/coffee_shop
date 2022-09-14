@@ -21,7 +21,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0px 50px 0px 73px;
+  padding: 0.5px 48px 0px 42px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,7 +65,7 @@ header ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 118px;
+  margin-top: 140px;
   margin-bottom: 60px;
 }
 
@@ -238,7 +238,7 @@ content .textBox {
   }
   .content {
     flex-direction: column;
-    margin: 100px 24px 0px 24px;
+    margin: 106px 24px 0px 24px;
   }
   .content .textBox h2 {
     font-size: 49px;
@@ -272,7 +272,7 @@ content .textBox {
   .thumb {
     position: absolute;
     left: 50%;
-    bottom: -10px;
+    bottom: 34px;
     transform: translateX(-50%);
     display: flex;
   }
@@ -284,6 +284,9 @@ content .textBox {
     height: 100%;
     background: #dbb4b1;
     clip-path: circle(300px at center bottom);
+  }
+  .sci {
+    top: 56%;
   }
   .fa-brands {
     font-size: 19px;

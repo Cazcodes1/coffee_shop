@@ -201,6 +201,7 @@ li {
   padding-top: 20px;
   color: #dbb4b1;
   background-color: #fff0e2;
+  margin-top: -100px;
 }
 
 @media (max-width: 991px) {
@@ -258,14 +259,24 @@ li {
 
     margin: 5px 0;
   }
-
+  .shop-container {
+    margin: 39px -18px 50px -18px;
+  }
+  .menu h3 {
+    font-size: 49px;
+    line-height: 44px;
+    padding-bottom: 13px;
+  }
+  .menu h4 {
+    font-size: 25px;
+    line-height: 28px;
+  }
   section {
-    padding: 19px 15px 9px;
+    padding: 30px 15px 9px;
   }
   section.shop {
     margin-bottom: 75px;
   }
-
   .fa-brands {
     font-size: 30px;
   }
@@ -280,7 +291,7 @@ li {
     margin-bottom: -200px;
   }
   .coded-by {
-    margin-top: -125px;
-    font-size: 16px;
+    margin-top: -85px;
+    font-size: 11px;
   }
 }
