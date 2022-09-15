@@ -246,8 +246,8 @@ content .textBox {
   }
 
   .content .imgBox img {
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 300px;
+    max-width: 300px;
   }
   .thumb li img {
     max-height: 80px;
@@ -272,8 +272,5 @@ content .textBox {
     font-size: 10px;
     opacity: 80%;
     color: #80babb;
-  }
-  img .owners {
-    max-width: 100%;
   }
 }
