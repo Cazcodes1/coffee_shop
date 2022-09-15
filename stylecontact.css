@@ -259,6 +259,10 @@ li {
 
     margin: 5px 0;
   }
+  .content .imgBox img {
+    max-height: 250px;
+    max-width: 250px;
+  }
   .shop-container {
     margin: 39px -18px 50px -18px;
   }
