@@ -273,4 +273,7 @@ content .textBox {
     opacity: 80%;
     color: #80babb;
   }
+  img .owners {
+    max-width: 100%;
+  }
 }
