@@ -294,4 +294,16 @@ li {
     margin-top: -85px;
     font-size: 11px;
   }
+  .drink-image {
+    padding: 10px 10px 10px 10px;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .image__title {
+    font-size: 16px;
+  }
+  .image__description {
+    font-size: 14px;
+  }
 }

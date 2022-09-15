@@ -21,7 +21,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0px 50px 0px 73px;
+  padding: 0.5px 48px 0px 42px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,6 @@ header ul li a {
   margin-left: 40px;
   text-decoration: none;
 }
-
 .content {
   position: relative;
   width: 100%;
@@ -68,6 +67,7 @@ content .textBox {
   font-size: 70px;
   line-height: 4rem;
   font-weight: 500;
+  margin-top: 40px;
 }
 .content .textBox h2 span {
   color: #65a5b6;

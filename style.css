@@ -294,4 +294,11 @@ content .textBox {
   .coded-by {
     font-size: 13px;
   }
+  li {
+    font-size: 4vw;
+  }
+
+  .fa-brands fa-instagram fa-1x {
+    height: 10px;
+  }
 }
