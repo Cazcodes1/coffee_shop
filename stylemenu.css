@@ -235,15 +235,16 @@ h4 {
     font-size: 37px;
   }
   .choice {
-    font-size: 27px;
+    font-size: 23px;
   }
   .description {
     font-size: 16px;
   }
   .all-drinks-container {
-    justify-content: end;
+    max-width: 100%;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, 11rem);
-    gap: 0.5rem;
+    gap: 0.25rem;
   }
   .menu {
     padding: 7px;
