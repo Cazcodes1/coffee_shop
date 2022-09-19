@@ -246,6 +246,12 @@ h4 {
     grid-template-columns: repeat(auto-fit, 11rem);
     gap: 0.25rem;
   }
+  .menu .box-container .box img {
+    width: 74%;
+    margin: 0 auto;
+
+    margin-bottom: 1rem;
+  }
   .menu {
     padding: 7px;
     padding-bottom: 1px;
